@@ -1,2 +1,2 @@
-# amateur-ui
+# NaN-UI
 UI component library
