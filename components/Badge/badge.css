@@ -1,0 +1,53 @@
+.badge {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.badge-status {
+    width: 1.5rem;
+    height: 1.5rem;
+    border-radius: 50%;
+    position: absolute;
+    bottom: 10%;
+    right: 10%;
+    border: 2px solid var(--color-white);
+}
+
+.online {
+    background-color: var(--color-green);
+}
+
+.offline {
+    background-color: var(--color-gray);
+}
+
+.dnd {
+    background-color: var(--color-red);
+}
+
+.idle {
+    background-color: var(--color-orange);
+}
+
+.badge-count {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+    position: absolute;
+    top: -10%;
+    left: 65%;
+    background-color: red;
+    font-size: 1.5rem;
+    font-weight: bolder;
+    color: white;
+}
+
+.icon {
+    width: 4rem;
+}

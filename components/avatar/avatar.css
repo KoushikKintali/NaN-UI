@@ -3,6 +3,7 @@
   height: 6rem;
   border-radius: 50%;
   margin: 0.5rem;
+  object-fit: cover;
 }
 
 .text-avatar {
