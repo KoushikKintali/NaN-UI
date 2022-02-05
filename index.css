@@ -25,6 +25,7 @@ body {
     --color-gray: #808080;
     --color-red: #FF0000;
     --color-orange:#FFA500;
+    --color-blue: #0000FF;
 }
 
 hr {
@@ -160,7 +161,7 @@ h4 {
     text-align: justify;
 }
 
-.btn {
+/* .btn {
     padding: 1.5rem;
     border-radius: 10rem;
 }
@@ -175,7 +176,7 @@ h4 {
     border: thin solid var(--color-primary);
     background-color: var(--color-primary);
     color: var(--color-white);
-}
+} */
 
 .pt-10 {
     padding-top: 10px;
@@ -286,13 +287,13 @@ h4 {
     }
 }
 
-iframe {
+/* iframe {
     width: 100%;
-    height: 35rem;
+    height: 77px;
     border:0;
     transform: scale(1);
     overflow:hidden;
-}
+} */
 
 .doc-container {
     position: relative;
