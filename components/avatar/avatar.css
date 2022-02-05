@@ -14,17 +14,17 @@
     font-size: 3rem;
 }
 
-.avatar-s {
+.avatar-sm {
     width: 4rem;
     height: 4rem;
 }
 
-.avatar-m {
+.avatar-md {
     width: 8rem;
     height: 8rem;
 }
 
-.avatar-l {
+.avatar-lg {
     width: 10rem;
     height: 10rem;
 }
