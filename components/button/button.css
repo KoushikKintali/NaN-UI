@@ -12,6 +12,44 @@
     color: var(--color-blue);
 }
 
+.btn-primary {
+    background-color: var(--color-primary);
+    color: var(--color-white);
+}
+
+.btn-secondary {
+    background-color: var(--color-secondary);
+    color: var(--color-white);
+}
+
+.btn-dark {
+    background-color: var(--color-dark);
+    color: var(--color-white);
+}
+
+.btn-light {
+    background-color: var(--color-light);
+}
+
+.btn-success {
+    background-color: var(--color-success);
+    color: var(--color-white);
+}
+
+.btn-danger {
+    background-color: var(--color-danger);
+    color: var(--color-white);
+}
+
+.btn-warning {
+    background-color: var(--color-warning);
+}
+
+.btn-info {
+    background-color: var(--color-info);
+    color: var(--color-white);
+}
+
 .btn-outline-primary {
     border: thin solid var(--color-primary);
     background-color: transparent;
