@@ -1,0 +1,69 @@
+:root {
+    --bg-color-alert-primary: #cfe2ff;
+    --color-alert-primary:#084298;
+    --bg-color-alert-secondary:#e2e3e5;
+    --color-alert-secondary:#41464b;
+    --bg-color-alert-success:#d1e7dd;
+    --color-alert-success:#0f5132;
+    --bg-color-alert-danger:#f8d7da;
+    --color-alert-danger:#842029;
+    --bg-color-alert-warning:#fff3cd;
+    --color-alert-warning:#664d03;
+}
+
+.preview-block {
+    flex-direction: column;
+}
+
+.alert {
+    font-size: 1.5rem;
+    padding: 2rem;
+    border-radius: 10px;
+    width: 90%;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    position: relative;
+    font-weight: 800;
+}
+
+.alert-primary {
+    background-color: var(--bg-color-alert-primary);
+    color: var(--color-alert-primary);
+}
+
+.alert-secondary {
+    background-color: var(--bg-color-alert-secondary);
+    color: var(--color-alert-secondary);
+}
+
+.alert-success {
+    background-color: var(--bg-color-alert-success);
+    color: var(--color-alert-success);
+}
+
+.alert-danger {
+    background-color: var(--bg-color-alert-danger);
+    color: var(--color-alert-danger);
+}
+
+.alert-warning {
+    background-color: var(--bg-color-alert-warning);
+    color: var(--color-alert-warning);
+}
+
+.alert-dismiss .btn-close {
+    position: absolute;
+    right: 0;
+    padding-right: 1rem;
+    cursor: pointer;
+    font-weight: 500;
+}
+
+.alert-dismiss .btn-close:hover {
+    position: absolute;
+    font-weight: 600;
+    right: 0;
+    padding-right: 1rem;
+    cursor: pointer;
+}
