@@ -1,0 +1,212 @@
+.btn {
+    padding: 1.2rem;
+    border-radius: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.8rem;
+}
+
+.link {
+    background-color: transparent;
+    color: var(--color-blue);
+}
+
+.btn-primary {
+    background-color: var(--color-primary);
+    color: var(--color-white);
+}
+
+.btn-primary:hover {
+    background-color: #007bffe0;
+    color: var(--color-white);
+}
+
+.btn-secondary {
+    background-color: var(--color-secondary);
+    color: var(--color-white);
+}
+
+.btn-secondary:hover {
+    background-color: #6c757dde;
+    color: var(--color-white);
+}
+
+.btn-dark {
+    background-color: var(--color-dark);
+    color: var(--color-white);
+}
+
+.btn-dark:hover {
+    background-color: #343a40d9;
+    color: var(--color-white);
+}
+
+.btn-light {
+    background-color: var(--color-light);
+}
+
+.btn-light:hover {
+    background-color: #f8f9fae0;
+}
+
+.btn-success {
+    background-color: var(--color-success);
+    color: var(--color-white);
+}
+
+.btn-success:hover {
+    background-color: #28a745db;
+    color: var(--color-white);
+}
+
+.btn-danger {
+    background-color: var(--color-danger);
+    color: var(--color-white);
+}
+
+.btn-danger:hover {
+    background-color: #dc3545d9;
+    color: var(--color-white);
+}
+
+.btn-warning {
+    background-color: var(--color-warning);
+}
+
+.btn-warning:hover {
+    background-color: #ffc1079c;
+}
+
+.btn-info {
+    background-color: var(--color-info);
+    color: var(--color-white);
+}
+
+.btn-info:hover {
+    background-color: #17a2b8e0;
+    color: var(--color-white);
+}
+
+.btn-outline-primary {
+    border: thin solid var(--color-primary);
+    background-color: transparent;
+    color: var(--color-primary);
+}
+
+.btn-outline-primary:hover {
+    border: thin solid var(--color-primary);
+    background-color: var(--color-primary);
+    color: var(--color-white);
+}
+
+.btn-outline-secondary {
+    border: thin solid var(--color-secondary);
+    background-color: transparent;
+    color: var(--color-secondary);
+}
+
+.btn-outline-secondary:hover {
+    border: thin solid var(--color-secondary);
+    background-color: var(--color-secondary);
+    color: var(--color-white);
+}
+
+.btn-outline-dark {
+    border: thin solid var(--color-dark);
+    background-color: transparent;
+    color: var(--color-dark);
+}
+
+.btn-outline-dark:hover {
+    border: thin solid var(--color-dark);
+    background-color: var(--color-dark);
+    color: var(--color-white);
+}
+
+.btn-outline-light {
+    border: thin solid var(--color-light);
+    background-color: transparent;
+    color: var(--color-light);
+}
+
+.btn-outline-light:hover {
+    border: thin solid var(--color-light);
+    background-color: var(--color-light);
+    color: var(--color-black);
+}
+
+.btn-outline-success {
+    border: thin solid var(--color-success);
+    background-color: transparent;
+    color: var(--color-success);
+}
+
+.btn-outline-success:hover {
+    border: thin solid var(--color-success);
+    background-color: var(--color-success);
+    color: var(--color-white);
+}
+
+.btn-outline-danger {
+    border: thin solid var(--color-danger);
+    background-color: transparent;
+    color: var(--color-danger);
+}
+
+.btn-outline-danger:hover {
+    border: thin solid var(--color-danger);
+    background-color: var(--color-danger);
+    color: var(--color-white);
+}
+
+.btn-outline-warning {
+    border: thin solid var(--color-warning);
+    background-color: transparent;
+    color: var(--color-warning);
+}
+
+.btn-outline-warning:hover {
+    border: thin solid var(--color-warning);
+    background-color: var(--color-warning);
+    color: var(--color-black);
+}
+
+.btn-outline-info {
+    border: thin solid var(--color-info);
+    background-color: transparent;
+    color: var(--color-info);
+}
+
+.btn-outline-info:hover {
+    border: thin solid var(--color-info);
+    background-color: var(--color-info);
+    color: var(--color-white);
+}
+
+.btn-sm {
+    width: 8rem;
+    height: 2rem;
+    font-size: 1rem;
+}
+
+.btn-lg {
+    width: 16rem;
+    height: 4rem;
+    font-size: 2rem;
+}
+
+.btn-disabled {
+    opacity: 0.5;
+    pointer-events: none;
+}
+
+.btn img{
+    width: 3rem;
+    height: 3rem;
+    color: white;
+}
+
+.btn-float {
+    border-radius: 50%;
+}
