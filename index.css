@@ -163,22 +163,6 @@ h4 {
     text-align: justify;
 }
 
-/* .btn {
-    padding: 1.5rem;
-    border-radius: 10rem;
-}
-
-.btn-outline {
-    border: thin solid var(--color-primary);
-    background-color: transparent;
-    color: var(--color-primary);
-}
-
-.btn-outline:hover {
-    border: thin solid var(--color-primary);
-    background-color: var(--color-primary);
-    color: var(--color-white);
-} */
 
 .pt-10 {
     padding-top: 10px;
@@ -237,6 +221,37 @@ h4 {
         order: 2;
     }
 
+    .doc-container {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        margin: 0rem 4rem;
+    }
+
+    .side-nav-header {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .side-nav {
+        height: 100%;
+    }
+       
+    .get-started-nav-items {
+        display: none;
+    }
+
+    .components-nav-items {
+        display: none;
+    }
+
+    .doc-content {
+        flex-basis: 100vw;
+    }
+
 }
 
 @media only screen and (max-width: 720px) and (min-width: 480px){
@@ -261,6 +276,37 @@ h4 {
         flex-direction: column;
         justify-content: space-around;
         order: 2;
+    }
+
+    .doc-container {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        margin: 1rem 6rem;
+    }
+
+    .side-nav-header {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .side-nav {
+        height: 100%;
+    }
+    
+    .get-started-nav-items {
+        display: none;
+    }
+
+    .components-nav-items {
+        display: none;
+    }
+ 
+    .doc-content {
+        flex-basis: 100vw;
     }
 }
 
@@ -287,39 +333,77 @@ h4 {
         justify-content: space-around;
         order: 1;
     }
+
+    .doc-container {
+        position: relative;
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        margin: 2rem 8rem;
+    }
+
+    .side-nav {
+        height: 100%;
+    }
+        
+    .doc-content {
+        margin: 0 4rem;
+        flex-basis: 100vw;
+    }
+
+    #get-started-expand-more {
+        display: none;
+    }
+
+    #components-expand-more {
+        display: none;
+    }
+
+    #get-started-expand-less {
+        display: none;
+    }
+
+    #components-expand-less {
+        display: none;
+    }
 }
 
-/* iframe {
-    width: 100%;
-    height: 77px;
-    border:0;
-    transform: scale(1);
-    overflow:hidden;
-} */
+@media only screen and (min-width: 1280px) {
 
-.doc-container {
-    position: relative;
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
-    margin: 2rem 12rem;
-}
+    .doc-container {
+        position: relative;
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        margin: 2rem 12rem;
+    }
 
-.side-nav {
-    height: 100%;
-    flex-basis: 30vw;
-    position: sticky;
-    top: 0em;
-}
+    .side-nav {
+        height: 100%;
+        flex-basis: 25vw;
+        position: sticky;
+        top: 0em;
+    }
+       
+    .doc-content {
+        flex-basis: 70vw;
+    }
 
-.side-nav-items {
-    font-size: 1.5rem;
-    margin: 1rem;
-}
+    #get-started-expand-more {
+        display: none;
+    }
 
-.doc-content {
-    margin: 0 12rem;
-    flex-basis: 70vw;
+    #components-expand-more {
+        display: none;
+    }
+
+    #get-started-expand-less {
+        display: none;
+    }
+
+    #components-expand-less {
+        display: none;
+    }
 }
 
 .preview-block {
@@ -331,6 +415,7 @@ h4 {
     padding: 2rem;
     margin: 2rem 0;
     gap: 2rem;
+    flex-wrap: wrap;
 }
 
 .code-block {
@@ -341,4 +426,25 @@ h4 {
 
 .code-block iframe {
     width: 100%;
+}
+
+.material-icons-outlined.display-none {
+    display: none;
+}
+
+.material-icons-outlined.display-block {
+    display: block;
+}
+
+.display-none {
+    display: none;
+}
+
+.display-block {
+    display: block;
+}
+
+.side-nav-items {
+    font-size: 1.5rem;
+    margin: 1rem;
 }
