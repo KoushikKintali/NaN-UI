@@ -138,7 +138,6 @@ h4 {
     height: calc(100vh - 10rem);
     display: flex;
     align-items: center;
-    flex-direction: row;
     justify-content: space-between;
 }
 
@@ -231,7 +230,6 @@ h4 {
 
     .side-nav-header {
         display: flex;
-        flex-direction: row;
         align-items: center;
         justify-content: space-between;
     }
@@ -239,12 +237,8 @@ h4 {
     .side-nav {
         height: 100%;
     }
-       
-    .get-started-nav-items {
-        display: none;
-    }
 
-    .components-nav-items {
+    .components-nav-items, .get-started-nav-items {
         display: none;
     }
 
@@ -288,7 +282,6 @@ h4 {
 
     .side-nav-header {
         display: flex;
-        flex-direction: row;
         align-items: center;
         justify-content: space-between;
     }
@@ -297,11 +290,7 @@ h4 {
         height: 100%;
     }
     
-    .get-started-nav-items {
-        display: none;
-    }
-
-    .components-nav-items {
+    .components-nav-items, .get-started-nav-items {
         display: none;
     }
  
@@ -315,7 +304,6 @@ h4 {
         height: calc(100vh - 10rem);
         display: flex;
         align-items: center;
-        flex-direction: row;
         justify-content: space-between;
     }
     
@@ -337,7 +325,6 @@ h4 {
     .doc-container {
         position: relative;
         display: flex;
-        flex-direction: row;
         justify-content: flex-start;
         margin: 2rem 8rem;
     }
@@ -351,19 +338,7 @@ h4 {
         flex-basis: 100vw;
     }
 
-    #get-started-expand-more {
-        display: none;
-    }
-
-    #components-expand-more {
-        display: none;
-    }
-
-    #get-started-expand-less {
-        display: none;
-    }
-
-    #components-expand-less {
+    #get-started-expand-more, #get-started-expand-less, #components-expand-more, #components-expand-less {
         display: none;
     }
 }
@@ -373,7 +348,6 @@ h4 {
     .doc-container {
         position: relative;
         display: flex;
-        flex-direction: row;
         justify-content: flex-start;
         margin: 2rem 12rem;
     }
@@ -389,19 +363,7 @@ h4 {
         flex-basis: 70vw;
     }
 
-    #get-started-expand-more {
-        display: none;
-    }
-
-    #components-expand-more {
-        display: none;
-    }
-
-    #get-started-expand-less {
-        display: none;
-    }
-
-    #components-expand-less {
+    #get-started-expand-more, #get-started-expand-less, #components-expand-more, #components-expand-less {
         display: none;
     }
 }
@@ -445,6 +407,9 @@ h4 {
 }
 
 .side-nav-items {
-    font-size: 1.5rem;
     margin: 1rem;
+}
+
+.side-nav-items a {
+    font-size: 1.5rem;
 }
