@@ -21,20 +21,36 @@
     </nav>
     <main class="doc-container">
         <aside class="side-nav">
-            <h3>Get Started</h3>
-            <ul>
-                <li class="side-nav-items">Avatar</li>
-                <li class="side-nav-items">Avatar2</li>
-                <li class="side-nav-items">Avatar3</li>
-                <li class="side-nav-items">Avatar4</li>
+            <div class="side-nav-header">
+                <h3>Get Started</h3>
+                <span id="get-started-expand-more" class="material-icons-outlined display-block">
+                    expand_more
+                </span>
+                <span id="get-started-expand-less" class="material-icons-outlined display-none">
+                    expand_less
+                </span>
+            </div>
+            <ul id="get-started-nav-items" class="get-started-nav-items">
+                <li class="side-nav-items"><a href="">Avatar</a></li>
+                <li class="side-nav-items"><a href="">Avatar2</a></li>
+                <li class="side-nav-items"><a href="">Avatar3</a></li>
+                <li class="side-nav-items"><a href="">Avatar4</a></li>
             </ul>
 
-            <h3>Components</h3>
-            <ul>
-                <a href="../avatar/avatar.html"><li class="side-nav-items">Avatar</li></a>
-                <a href="./alert.html"><li class="side-nav-items">Alert</li></a>
-                <a href="../badge/badge.html"><li class="side-nav-items">Badge</li></a>
-                <a href="../button/button.html"><li class="side-nav-items">Button</li></a>
+            <div class="side-nav-header">
+                <h3>Components</h3>
+                <span id="components-expand-more" class="material-icons-outlined display-block">
+                    expand_more
+                </span>
+                <span id="components-expand-less" class="material-icons-outlined display-none">
+                    expand_less
+                </span>
+            </div>
+            <ul id="components-nav-items" class="components-nav-items">
+                <li class="side-nav-items"><a href="../avatar/avatar.html">Avatar</a></li>
+                <li class="side-nav-items"><a href="./alert.html">Alert</a></li>
+                <li class="side-nav-items"><a href="../badge/badge.html">Badge</a></li>
+                <li class="side-nav-items"><a href="../button/button.html">Button</a></li>
             </ul>
         </aside>
         <div class="doc-content">
@@ -113,5 +129,6 @@
             </section>
         </div>
     </main>
+    <script src="../../index.js" type="text/javascript"></script>
 </body>
 </html>
