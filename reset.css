@@ -64,3 +64,10 @@ button {
 a {
     text-decoration: none;
 }
+
+select {
+    background: none;
+    border: none;
+    outline: none;
+    font-size: 62.5%;
+}
