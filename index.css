@@ -25,6 +25,7 @@ body {
     --color-red: #FF0000;
     --color-orange:#FFA500;
     --color-blue: #0000FF;
+    --color-modal-bg: #343a40c2;
 }
 
 hr {
