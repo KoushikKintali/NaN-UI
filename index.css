@@ -26,6 +26,7 @@ body {
     --color-orange:#FFA500;
     --color-blue: #0000FF;
     --color-modal-bg: #343a40c2;
+    --color-nav:#E3F2FD;
 }
 
 hr {
@@ -120,7 +121,6 @@ p {
     display: flex;
     justify-content: space-between;
     height: 7rem;
-    /* position: sticky; */
     top: 0;
 }
 
