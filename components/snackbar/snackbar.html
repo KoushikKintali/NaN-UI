@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../../reset.css"></link>
+    <link rel="stylesheet" href="snackbar.css"></link>
+    <link rel="stylesheet" href="../../index.css"></link>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined">
+    <title>NaN-UI</title>
+</head>
+<body>
+    <nav class="navbar">
+        <img class="logo" src="../../assets/logo.png" alt="logo">
+        <ul class="flex-container flex-row">
+            <li class="flex-items">Home</li>
+            <li class="flex-items">Docs</li>
+            <li class="flex-items">Contribute</li>
+        </ul>
+    </nav>
+    <main class="doc-container">
+        <aside class="side-nav">
+            <div class="side-nav-header">
+                <h5>Get Started</h5>
+                <span id="get-started-expand-more" class="material-icons-outlined display-block">
+                    expand_more
+                </span>
+                <span id="get-started-expand-less" class="material-icons-outlined display-none">
+                    expand_less
+                </span>
+            </div>
+            <ul id="get-started-nav-items" class="get-started-nav-items">
+                <li class="side-nav-items"><a href="">Avatar</a></li>
+                <li class="side-nav-items"><a href="">Avatar2</a></li>
+                <li class="side-nav-items"><a href="">Avatar3</a></li>
+                <li class="side-nav-items"><a href="">Avatar4</a></li>
+            </ul>
+
+            <div class="side-nav-header">
+                <h5>Components</h5>
+                <span id="components-expand-more" class="material-icons-outlined display-block">
+                    expand_more
+                </span>
+                <span id="components-expand-less" class="material-icons-outlined display-none">
+                    expand_less
+                </span>
+            </div>
+            <ul id="components-nav-items" class="components-nav-items">
+                <li class="side-nav-items"><a href="../avatar/avatar.html">Avatar</a></li>
+                <li class="side-nav-items"><a href="../alert/alert.html">Alert</a></li>
+                <li class="side-nav-items"><a href="../badge/badge.html">Badge</a></li>
+                <li class="side-nav-items"><a href="../button/button.html">Button</a></li>
+                <li class="side-nav-items"><a href="../card/card.html">Card</a></li>
+                <li class="side-nav-items"><a href="../input/input.html">Input</a></li>
+                <li class="side-nav-items"><a href="./snackbar.html">Input</a></li>
+            </ul>
+        </aside>
+        <div class="doc-content">
+            <h4>Snackbar Component</h4>
+            <hr>
+            <section>
+                <div class="components">
+                    <h5>Simple Snackbar</h5>
+                    <div class="preview-block">
+                        <div class="snackbar">
+                            <p>Lorem ipsum dolor sit amet.</p>
+                            <span class="material-icons-outlined snackbar-dismiss">close</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="code-block">
+                    <iframe
+                        src="https://carbon.now.sh/embed/qwGM0TiSLAF0YmpCuXF5"
+                        style="width: 100%; height: 159px; border:0; transform: scale(1); overflow:hidden;"
+                        sandbox="allow-scripts allow-same-origin">
+                    </iframe>
+                </div>
+            </section>
+
+            <section>
+                <div class="components">
+                    <h5>Simple Snackbar</h5>
+                    <div class="preview-block snackbar-preview">
+                        <div class="snackbar snackbar-success">
+                            <span class="material-icons-outlined snackbar-icon">check_circle</span>
+                            <p>This is an success message!</p>
+                            <span class="material-icons-outlined snackbar-dismiss">close</span>
+                        </div>
+                        <div class="snackbar snackbar-danger">
+                            <span class="material-icons">error_outline</span>
+                            <p>This is an error message!</p>
+                            <span class="material-icons-outlined snackbar-dismiss">close</span>
+                        </div>
+                        <div class="snackbar snackbar-info">
+                            <span class="material-icons-outlined">info</span>
+                            <p>This is an info message!</p>
+                            <span class="material-icons-outlined snackbar-dismiss">close</span>
+                        </div>
+                        <div class="snackbar snackbar-warning">
+                            <span class="material-icons-outlined">warning_amber</span>
+                            <p>This is a warning message!</p>
+                            <span class="material-icons-outlined snackbar-dismiss">close</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="code-block">
+                    <iframe
+                        src="https://carbon.now.sh/embed/DmgpzVq4XPMefde7zvh5"
+                        style="width: 100%; height: 499px; border:0; transform: scale(1); overflow:hidden;"
+                        sandbox="allow-scripts allow-same-origin">
+                    </iframe>
+                </div>
+            </section>
+
+            <section>
+                <div class="components">
+                    <h5>Simple Snackbar</h5>
+                    <div class="preview-block snackbar-preview">
+                        <button class="btn btn-outline-secondary" id="btn-snackbar-success">Open Success Snackbar</button>
+                        <div class="snackbar snackbar-top-right snackbar-success display-none" id="snackbar">
+                            <span class="material-icons-outlined snackbar-icon">check_circle</span>
+                            <p>This is an success message!</p>
+                            <span class="material-icons-outlined snackbar-dismiss" id="snackbar-dismiss">close</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="code-block">
+                    <iframe
+                        src="https://carbon.now.sh/embed/vf9akE5226fvk8Mm9gLW"
+                        style="width: 100%; height: 180px; border:0; transform: scale(1); overflow:hidden;"
+                        sandbox="allow-scripts allow-same-origin">
+                    </iframe>
+                </div>
+            </section>
+
+            <section>
+                <div class="components">
+                    <h5>Positioned Snackbar</h5>
+                    <div class="preview-block">
+                        <button class="btn btn-outline-secondary" id="btn-snackbar-top-left">Top Left Snackbar</button>
+                        <button class="btn btn-outline-secondary" id="btn-snackbar-top-center">Top Center Snackbar</button>
+                        <button class="btn btn-outline-secondary" id="btn-snackbar-top-right">Top Right Snackbar</button>
+                        <button class="btn btn-outline-secondary" id="btn-snackbar-bottom-left">Bottom Left Snackbar</button>
+                        <button class="btn btn-outline-secondary" id="btn-snackbar-bottom-center">Bottom Center Snackbar</button>
+                        <button class="btn btn-outline-secondary" id="btn-snackbar-bottom-right">Bottom Right Snackbar</button>
+
+                        <div class="snackbar snackbar-top-right display-none" id="snackbar-top-right">
+                            <p>This is an simple snackbar</p>
+                            <span class="material-icons-outlined snackbar-dismiss" id="snackbar-dismiss">close</span>
+                        </div>
+
+                        <div class="snackbar snackbar-top-center display-none" id="snackbar-top-center">
+                            <p>This is an simple snackbar</p>
+                            <span class="material-icons-outlined snackbar-dismiss" id="snackbar-dismiss">close</span>
+                        </div>
+
+                        <div class="snackbar snackbar-top-left display-none" id="snackbar-top-left">
+                            <p>This is an simple snackbar</p>
+                            <span class="material-icons-outlined snackbar-dismiss" id="snackbar-dismiss">close</span>
+                        </div>
+
+                        <div class="snackbar snackbar-bottom-right display-none" id="snackbar-bottom-right">
+                            <p>This is an simple snackbar</p>
+                            <span class="material-icons-outlined snackbar-dismiss" id="snackbar-dismiss">close</span>
+                        </div>
+
+                        <div class="snackbar snackbar-bottom-center display-none" id="snackbar-bottom-center">
+                            <p>This is an simple snackbar</p>
+                            <span class="material-icons-outlined snackbar-dismiss" id="snackbar-dismiss">close</span>
+                        </div>
+
+                        <div class="snackbar snackbar-bottom-left display-none" id="snackbar-bottom-left">
+                            <p>This is an simple snackbar</p>
+                            <span class="material-icons-outlined snackbar-dismiss" id="snackbar-dismiss">close</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="code-block">
+                    <iframe
+                        src="https://carbon.now.sh/embed/X6ocxshvrrkyNWCB5Zpt"
+                        style="width: 100%; height: 691px; border:0; transform: scale(1); overflow:hidden;"
+                        sandbox="allow-scripts allow-same-origin">
+                    </iframe>
+                </div>
+            </section>
+        </div>
+    </main>
+    <script src="../../index.js" type="text/javascript"></script>
+    <script src="./snackbar.js" type="text/javascript"></script>
+</body>
+</html>
