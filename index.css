@@ -25,6 +25,7 @@ body {
     --color-red: #FF0000;
     --color-orange:#FFA500;
     --color-blue: #0000FF;
+    --color-nav:#E3F2FD;
 }
 
 hr {
@@ -119,7 +120,6 @@ p {
     display: flex;
     justify-content: space-between;
     height: 7rem;
-    /* position: sticky; */
     top: 0;
 }
 
