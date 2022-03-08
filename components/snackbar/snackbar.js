@@ -33,7 +33,7 @@ function showPositionedComponent(position) {
         snackbarTopLeftElement.classList.add('display-none');
         snackbarTopCenterElement.classList.add('display-none');
     } else {
-        snackbarBottomRightElement.classList.add('display-none');
+        snackbarBottomRightElement.classList.add('display-none'); 
     }
 
     if(position === 'bottom-left' && snackbarBottomLeftElement.classList.contains('display-none')) {
