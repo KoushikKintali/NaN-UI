@@ -426,9 +426,31 @@ p {
 }
 
 .side-nav-items {
-    margin: 1rem;
+    margin: 0.5rem;
+    padding: 0.5rem;
+    cursor: pointer;
 }
 
 .side-nav-items a {
-    font-size: 1.5rem;
+    font-size: 2rem;
+}
+
+.side-nav-items.is-active {
+    width: 20rem;
+    background-color: #007bff3b;
+}
+
+.side-nav-items.is-active a {
+    padding-left: 2rem;
+    width: 20rem;
+}
+
+.side-nav-items:hover {
+    background-color: #007bff3b;
+    padding-left: 2rem;
+    width: 20rem;
+}
+
+.side-nav-items.is-active:hover {
+    padding-left: 0;
 }
