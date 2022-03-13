@@ -3,15 +3,18 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 2rem 1rem 2rem 1rem;
+    padding: 0 1rem 0 1rem;
     top: 0;
     color: var(--color-dark);
     width: 100%;
     flex-wrap: wrap;
+    line-height: 7rem;
 }
 
 .nav-logo {
     font-size: 2rem;
+    display: flex;
+    align-items: center;
 }
 
 .nav-list {
@@ -24,11 +27,6 @@
 .nav-item {
     cursor: pointer;
 }
-
-.nav-item:last-child {
-    margin-right: 2rem;
-}
-
 
 .nav-link {
     color: var(--color-dark);
