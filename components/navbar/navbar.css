@@ -9,6 +9,7 @@
     width: 100%;
     flex-wrap: wrap;
     line-height: 7rem;
+    position: relative;
 }
 
 .nav-logo {
@@ -26,6 +27,7 @@
 
 .nav-item {
     cursor: pointer;
+    display: flex;
 }
 
 .nav-link {
@@ -35,7 +37,7 @@
 }
 
 .nav-dropdown {
-    margin-top: 1rem;
+    top: 7rem;
     position: absolute;
     width: 15rem;
     display: flex;
@@ -47,6 +49,7 @@
     background-color: var(--color-white);
     z-index: 1;
     border: thin solid var(--color-slate-gray);
+    line-height: 4rem;
 }
 
 .nav-dropdown-item {
@@ -60,8 +63,8 @@
     display: inline-block;
     width: 10px;
     height: 10px;
-    border-right: 2px solid var(--color-dark);
-    border-top: 2px solid var(--color-dark);
+    border-right: 2px solid var(--color-white);
+    border-top: 2px solid var(--color-white);
     transform: rotate(135deg);
     margin-left: 8px;
 }
@@ -71,5 +74,5 @@
     flex-direction: column;
     align-items: flex-start;
     flex-basis: 100%;
-    margin-top: 1.5rem;
+    line-height: 4rem;
 }
