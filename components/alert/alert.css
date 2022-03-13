@@ -1,17 +1,4 @@
-:root {
-    --bg-color-alert-primary: #cfe2ff;
-    --color-alert-primary:#084298;
-    --bg-color-alert-secondary:#e2e3e5;
-    --color-alert-secondary:#41464b;
-    --bg-color-alert-success:#d1e7dd;
-    --color-alert-success:#0f5132;
-    --bg-color-alert-danger:#f8d7da;
-    --color-alert-danger:#842029;
-    --bg-color-alert-warning:#fff3cd;
-    --color-alert-warning:#664d03;
-}
-
-.preview-block {
+.preview-block.alert-preview-block {
     flex-direction: column;
 }
 
