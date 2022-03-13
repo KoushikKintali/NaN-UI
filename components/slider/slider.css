@@ -1,0 +1,19 @@
+.slider-component {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.slider {
+    cursor: pointer;
+    overflow: hidden;
+}
+
+.slider-value-min {
+    font-size: 2rem;
+}
+
+.slider-value-max {
+    font-size: 2rem;
+}
