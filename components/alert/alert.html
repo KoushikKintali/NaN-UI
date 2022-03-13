@@ -11,18 +11,26 @@
     <title>NaN-UI</title>
 </head>
 <body>
-    <nav class="navbar">
-        <img class="logo" src="../../assets/logo.png" alt="logo">
-        <ul class="flex-container flex-row">
-            <li class="flex-items">Home</li>
-            <li class="flex-items">Docs</li>
-            <li class="flex-items">Contribute</li>
+    <nav class="nav">
+        <a class="nav-logo" src="" alt="logo">
+            <img class="logo" src="../../assets/logo.png" alt="logo">
+        </a>
+        <ul class="nav-list">
+            <li class="nav-item">
+                <a class="nav-link" href="../../index.html">Home</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="../../components/alert/alert.html">Docs</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Contribute</a>
+            </li>
         </ul>
     </nav>
     <main class="doc-container">
         <aside class="side-nav">
             <div class="side-nav-header">
-                <h3>Get Started</h3>
+                <h5>Get Started</h5>
                 <span id="get-started-expand-more" class="material-icons-outlined display-block">
                     expand_more
                 </span>
@@ -38,7 +46,7 @@
             </ul>
 
             <div class="side-nav-header">
-                <h3>Components</h3>
+                <h5>Components</h5>
                 <span id="components-expand-more" class="material-icons-outlined display-block">
                     expand_more
                 </span>
@@ -47,21 +55,27 @@
                 </span>
             </div>
             <ul id="components-nav-items" class="components-nav-items">
+                <li class="side-nav-items is-active"><a href="../alert/alert.html">Alert</a></li>
                 <li class="side-nav-items"><a href="../avatar/avatar.html">Avatar</a></li>
-                <li class="side-nav-items"><a href="./alert.html">Alert</a></li>
                 <li class="side-nav-items"><a href="../badge/badge.html">Badge</a></li>
                 <li class="side-nav-items"><a href="../button/button.html">Button</a></li>
                 <li class="side-nav-items"><a href="../card/card.html">Card</a></li>
                 <li class="side-nav-items"><a href="../image/image.html">Image</a></li>
+                <li class="side-nav-items"><a href="../input/input.html">Input</a></li>
+                <li class="side-nav-items"><a href="../modal/modal.html">Modal</a></li>
+                <li class="side-nav-items"><a href="../navbar/navbar.html">Navbar</a></li>
+                <li class="side-nav-items"><a href="../rating/rating.html">Rating</a></li>
+                <li class="side-nav-items"><a href="../snackbar/snackbar.html">Snackbar</a></li>
+                <li class="side-nav-items"><a href="../typography/typography.html">Typography</a></li>
             </ul>
         </aside>
         <div class="doc-content">
-            <h2>Alert Component</h2>
+            <h4>Alert Component</h4>
             <hr>
             <section>
                 <div class="components">
-                    <h3>Simple Alert</h3>
-                    <div class="preview-block">
+                    <h5>Simple Alert</h5>
+                    <div class="preview-block alert-preview-block">
                         <div class="alert alert-primary">A simple primary alert</div>
                         <div class="alert alert-secondary">A simple secondary alert</div>
                         <div class="alert alert-success">A simple success alert</div>
@@ -80,8 +94,8 @@
     
             <section>
                 <div class="components">
-                    <h3>Alert with icon</h3>
-                    <div class="preview-block">
+                    <h5>Alert with icon</h5>
+                    <div class="preview-block alert-preview-block">
                         <div class="alert alert-primary">
                             <span class="material-icons-outlined">info</span>A simple primary alert
                         </div>
@@ -107,8 +121,8 @@
     
             <section>
                 <div class="component">
-                    <h3>Alert with close button</h3>
-                    <div class="preview-block">
+                    <h5>Alert with close button</h5>
+                    <div class="preview-block alert-preview-block">
                         <div id="alert-dismiss" class="alert alert-primary alert-dismiss">
                             <span class="material-icons-outlined">info</span>
                             A simple primary alert
