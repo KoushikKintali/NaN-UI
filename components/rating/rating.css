@@ -1,0 +1,39 @@
+.rating {
+    cursor: pointer;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    gap: 0.3rem;
+}
+
+.rating span {
+    color: var(--color-secondary);
+}
+
+.rating span:hover {
+    color: var(--color-orange);
+}
+
+.rating .rating-element {
+    color: var(--color-orange);
+}
+
+.rating .rating-element-1:hover ~ span {
+    color: var(--color-orange);
+}
+
+.rating .rating-element-2:hover ~ span {
+    color: var(--color-orange);
+}
+
+.rating .rating-element-3:hover ~ span {
+    color: var(--color-orange);
+}
+
+.rating .rating-element-4:hover ~ span {
+    color: var(--color-orange);
+}
+
+.rating .rating-element-5:hover ~ span {
+    color: var(--color-orange);
+}
