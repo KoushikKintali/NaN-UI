@@ -1,3 +1,15 @@
+:root {
+    --color-modal-bg: #343a40c2;
+    --color-primary: #007bff;
+    --color-secondary: #6c757d;
+    --color-dark: #343a40;
+    --color-light: #f8f9fa;
+    --color-success:#28a745;
+    --color-danger: #dc3545;
+    --color-warning: #ffc107;
+    --color-info: #17a2b8;
+}
+
 h1 {
     font-size: 7rem;
     line-height: 6.4rem;
