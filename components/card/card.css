@@ -70,6 +70,7 @@
     gap: 0.5rem;
     margin: 5px 0;
     font-size: 1.3rem;
+    width: inherit;
 }
 
 .card-btn-group {
