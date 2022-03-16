@@ -90,7 +90,7 @@
     padding: 5px;
     position: absolute;
     border-radius: 0 2px 2px 0;
-    top: 1.8rem;
+    top: 2rem;
     left: 0.5rem;
 }
 
@@ -103,11 +103,20 @@
 }
 
 .card-wishlist {
-    color: var(--color-lynx-gray);
+    color: var(--color-dark);
     position: absolute;
-    right: 1.5rem;
-    top: 1.5rem;
+    right: 2rem;
+    top: 2rem;
     cursor: pointer;
+    display: flex;
+    align-items: center;
+    background-color: var(--color-white);
+    border-radius: 50%;
+    padding: 0.3rem;
+}
+
+.card-wishlist.is-active {
+    color: var(--color-red);
 }
 
 .card-text-overlay {
