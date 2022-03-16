@@ -25,6 +25,7 @@
     align-items: flex-start;
     height: inherit;
     justify-content: center;
+    width: inherit;
 }
 
 .preview-block-card {
