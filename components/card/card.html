@@ -7,17 +7,26 @@
     <link rel="stylesheet" href="../../reset.css"></link>
     <link rel="stylesheet" href="card.css"></link>
     <link rel="stylesheet" href="../../index.css"></link>
+    <link rel="stylesheet" href="../../main.css"></link>
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined">
     <title>NaN-UI</title>
 </head>
 <body>
-    <nav class="navbar">
-        <img class="logo" src="../../assets/logo.png" alt="logo">
-        <ul class="flex-container flex-row">
-            <li class="flex-items">Home</li>
-            <li class="flex-items">Docs</li>
-            <li class="flex-items">Contribute</li>
+    <nav class="nav">
+        <a class="nav-logo" src="" alt="logo">
+            <img class="logo" src="../../assets/logo.png" alt="logo">
+        </a>
+        <ul class="nav-list">
+            <li class="nav-item">
+                <a class="nav-link" href="../../index.html">Home</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="../../components/alert/alert.html">Docs</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Contribute</a>
+            </li>
         </ul>
     </nav>
     <main class="doc-container">
@@ -48,11 +57,18 @@
                 </span>
             </div>
             <ul id="components-nav-items" class="components-nav-items">
-                <li class="side-nav-items"><a href="../avatar/avatar.html">Avatar</a></li>
                 <li class="side-nav-items"><a href="../alert/alert.html">Alert</a></li>
+                <li class="side-nav-items"><a href="../avatar/avatar.html">Avatar</a></li>
                 <li class="side-nav-items"><a href="../badge/badge.html">Badge</a></li>
                 <li class="side-nav-items"><a href="../button/button.html">Button</a></li>
-                <li class="side-nav-items"><a href="./card.html">Card</a></li>
+                <li class="side-nav-items is-active"><a href="../card/card.html">Card</a></li>
+                <li class="side-nav-items"><a href="../image/image.html">Image</a></li>
+                <li class="side-nav-items"><a href="../input/input.html">Input</a></li>
+                <li class="side-nav-items"><a href="../modal/modal.html">Modal</a></li>
+                <li class="side-nav-items"><a href="../navbar/navbar.html">Navbar</a></li>
+                <li class="side-nav-items"><a href="../rating/rating.html">Rating</a></li>
+                <li class="side-nav-items"><a href="../snackbar/snackbar.html">Snackbar</a></li>
+                <li class="side-nav-items"><a href="../typography/typography.html">Typography</a></li>
             </ul>
         </aside>
         <div class="doc-content">
@@ -61,16 +77,24 @@
             <section>
                 <div class="components">
                     <h5>Cards with badges</h5>
-                    <div class="preview-block">
+                    <div class="preview-block preview-block-card">
                         <div class="card">
-                            <img class="card-img" src="https://picsum.photos/id/0/250" alt="card-img">
+                            <div class="card-img">
+                                <img src="https://picsum.photos/id/0/230" alt="card-img">
+                            </div>
                             <div class="card-body">
-                                <div class="card-category">category</div>
-                                <div class="card-description">NeoG Hoodies</div>
-                                <div class="card-footer">
+                                <div class="card-header">
+                                    <div class="header">Laptop</div>
+                                    <div class="category">category</div>
+                                </div>
+                                <!-- <div class="card-description">NeoG Hoodies</div> -->
+                                <div class="card-price">
                                     <div class="discounted-price">₹40</div>
                                     <div class="original-price">₹100</div>
                                     <div class="saved-price">40% off</div>
+                                </div>
+                                <div class="card-btn-group">
+                                    <button class="btn btn-outline-secondary">Add To Cart</button>
                                 </div>
                             </div>
                             <div class="card-tag">
@@ -90,25 +114,61 @@
 
             <section>
                 <div class="components">
-                    <h5>Cards with dismiss</h5>
-                    <div class="preview-block">
+                    <h5>Cards with wishlist</h5>
+                    <div class="preview-block preview-block-card">
                         <div class="card">
-                            <img class="card-img" src="https://picsum.photos/id/0/250" alt="card-img">
+                            <div class="card-img">
+                                <img src="https://picsum.photos/id/0/230" alt="card-img">
+                            </div>
                             <div class="card-body">
-                                <div class="card-category">category</div>
-                                <div class="card-description">NeoG Hoodies</div>
-                                <div class="card-footer">
+                                <div class="card-header">
+                                    <div class="header">Laptop</div>
+                                    <div class="category">category</div>
+                                </div>
+                                <!-- <div class="card-description">NeoG Hoodies</div> -->
+                                <div class="card-price">
                                     <div class="discounted-price">₹40</div>
                                     <div class="original-price">₹100</div>
                                     <div class="saved-price">40% off</div>
+                                </div>
+                                <div class="card-btn-group">
+                                    <button class="btn btn-outline-secondary">Add To Cart</button>
                                 </div>
                             </div>
                             <div class="card-tag">
                                 Best Seller
                             </div>
-                            <div class="card-dismiss">
-                                <span class="material-icons">
-                                    cancel
+                            <div class="card-wishlist">
+                                <span class="material-icons-outlined">
+                                    favorite_border
+                                </span>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-img">
+                                <img src="https://picsum.photos/id/0/230" alt="card-img">
+                            </div>
+                            <div class="card-body">
+                                <div class="card-header">
+                                    <div class="header">Laptop</div>
+                                    <div class="category">category</div>
+                                </div>
+                                <!-- <div class="card-description">NeoG Hoodies</div> -->
+                                <div class="card-price">
+                                    <div class="discounted-price">₹40</div>
+                                    <div class="original-price">₹100</div>
+                                    <div class="saved-price">40% off</div>
+                                </div>
+                                <div class="card-btn-group">
+                                    <button class="btn btn-outline-secondary">Add To Cart</button>
+                                </div>
+                            </div>
+                            <div class="card-tag">
+                                Best Seller
+                            </div>
+                            <div class="card-wishlist is-active">
+                                <span class="material-icons-outlined">
+                                    favorite
                                 </span>
                             </div>
                         </div>
@@ -123,19 +183,26 @@
                 </div>
             </section>
 
-            <section>
+            <!-- <section>
                 <div class="component">
                     <h5>Cards with text overlay</h5>
-                    <div class="preview-block">
+                    <div class="preview-block preview-block-card">
                         <div class="card">
-                            <img class="card-img" src="https://picsum.photos/id/0/250" alt="card-img">
+                            <div class="card-img">
+                                <img src="https://picsum.photos/id/0/230" alt="card-img">
+                            </div>
                             <div class="card-body">
-                                <div class="card-category">category</div>
-                                <div class="card-description">NeoG Hoodies</div>
-                                <div class="card-footer">
+                                <div class="card-header">
+                                    <div class="header">Laptop</div>
+                                    <div class="category">category</div>
+                                </div>
+                                <div class="card-price">
                                     <div class="discounted-price">₹40</div>
                                     <div class="original-price">₹100</div>
                                     <div class="saved-price">40% off</div>
+                                </div>
+                                <div class="card-btn-group">
+                                    <button class="btn btn-outline-secondary">Add To Cart</button>
                                 </div>
                             </div>
                             <div class="card-tag">
@@ -159,17 +226,19 @@
                         sandbox="allow-scripts allow-same-origin">
                   </iframe>
                 </div>
-            </section>
+            </section> -->
 
             <section>
                 <div class="component">
                     <h5>Text only cards</h5>
-                    <div class="preview-block">
+                    <div class="preview-block preview-block-card">
                         <div class="card">
                             <div class="card-body">
-                                <div class="card-header">Phones</div>
-                                <div class="card-category">category</div>
-                                <div class="card-footer">
+                                <div class="card-header">
+                                    <div class="header">Laptop</div>
+                                    <div class="category">category</div>
+                                </div>
+                                <div class="card-description">
                                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Error repellendus quas autem corporis magni perferendis fugit possimus itaque ipsam maiores.
                                 </div>
                             </div>
@@ -188,17 +257,25 @@
             <section>
                 <div class="component">
                     <h5>Horizontal Card</h5>
-                    <div class="preview-block">
+                    <div class="preview-block preview-block-card">
                         <div class="card card-horizontal">
-                            <img class="card-img" src="https://picsum.photos/id/0/250" alt="card-img">
+                            <div class="card-img">
+                                <img src="https://picsum.photos/id/0/230" alt="card-img">
+                            </div>
                             <div class="card-body">
-                                <div class="card-category">category</div>
-                                <div class="card-description">NeoG Hoodies</div>
-                                <div class="card-sub-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate maxime odio esse alias accusantium ea voluptates recusandae labore quam excepturi.</div>
-                                <div class="card-footer">
+                                <div class="card-header">
+                                    <div class="header">Laptop</div>
+                                    <div class="category">category</div>
+                                </div>
+                                <!-- <div class="card-description">NeoG Hoodies</div> -->
+                                <div class="card-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate maxime odio esse alias accusantium ea voluptates recusandae labore quam excepturi.</div>
+                                <div class="card-price">
                                     <div class="discounted-price">₹40</div>
                                     <div class="original-price">₹100</div>
                                     <div class="saved-price">40% off</div>
+                                </div>
+                                <div class="card-btn-group">
+                                    <button class="btn btn-outline-secondary">Add To Cart</button>
                                 </div>
                             </div>
                             <div class="card-tag">
@@ -224,16 +301,24 @@
             <section>
                 <div class="component">
                     <h5>Cards with shadow</h5>
-                    <div class="preview-block">
+                    <div class="preview-block preview-block-card">
                         <div class="card card-shadow">
-                            <img class="card-img" src="https://picsum.photos/id/0/250" alt="card-img">
+                            <div class="card-img">
+                                <img src="https://picsum.photos/id/0/230" alt="card-img">
+                            </div>
                             <div class="card-body">
-                                <div class="card-category">category</div>
-                                <div class="card-description">NeoG Hoodies</div>
-                                <div class="card-footer">
+                                <div class="card-header">
+                                    <div class="header">Laptop</div>
+                                    <div class="category">category</div>
+                                </div>
+                                <!-- <div class="card-description">NeoG Hoodies</div> -->
+                                <div class="card-price">
                                     <div class="discounted-price">₹40</div>
                                     <div class="original-price">₹100</div>
                                     <div class="saved-price">40% off</div>
+                                </div>
+                                <div class="card-btn-group">
+                                    <button class="btn btn-outline-secondary">Add To Cart</button>
                                 </div>
                             </div>
                             <div class="card-tag">

@@ -11,7 +11,7 @@
     --color-alert-warning:#664d03;
 }
 
-.preview-block {
+.preview-block.alert-preview-block {
     flex-direction: column;
 }
 
