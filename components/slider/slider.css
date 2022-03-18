@@ -6,8 +6,20 @@
 }
 
 .slider {
+    background: linear-gradient(to right, var(--color-primary) 0%, var(--color-white) 0%, #fff 50%, #fff 100%);
+    outline: none;
+    border-radius: 3rem;
+    height: 0.2rem;
+    -webkit-appearance: none;
+}
+
+.slider::-webkit-slider-thumb {
+    height: 1.5rem;
+    width: 1.5rem;
+    -webkit-appearance: none;
+    border-radius: 50%;
+    background-color: #007BFF;
     cursor: pointer;
-    overflow: hidden;
 }
 
 .slider-value-min {
