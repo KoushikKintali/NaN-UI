@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined" rel="stylesheet">
     <link rel="stylesheet" href="./util/reset.css">
     <link rel="stylesheet" href="index.css">
     <link rel="stylesheet" href="./util/main.css">
@@ -24,6 +25,16 @@
             <li class="nav-item">
                 <a class="nav-link" href="#">Contribute</a>
             </li>
+            <li class="nav-item" id="light-mode">
+                <button id="btn-light-mode" class="btn btn-outline-light btn-nav nav-link">
+                    <span class="material-icons-outlined">light_mode</span>
+                </button>
+            </li>
+            <li class="nav-item" id="dark-mode">
+                <button id="btn-dark-mode" class="btn btn-outline-light btn-nav nav-link">
+                    <span class="material-icons-outlined">dark_mode</span>
+                </button>
+            </li>
         </ul>
     </nav>
     <main class="main-body">
@@ -37,7 +48,7 @@
         </aside>
         <img class="side-image" src="./assets/homepage-image.png" alt="image">
     </main>
-    <footer class="footer flex-container flex-row">
+    <footer class="footer flex-container flex-row" id="footer">
         <p class="footer-content">Developed by Koushik Kintali</p>
         <div class="flex-container flex-row">
             <a href="https://www.linkedin.com/in/koushikkintali/"><img class="footer-icons" src="./assets/linkedin.png"></a>
