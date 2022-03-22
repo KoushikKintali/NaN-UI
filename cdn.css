@@ -1,5 +1,5 @@
-@import url('./reset.css');
-@import url('./main.css');
+@import url('./util/reset.css');
+@import url('./util/main.css');
 @import url('./components/alert/alert.css');
 @import url('./components/avatar/avatar.css');
 @import url('./components/badge/badge.css');
