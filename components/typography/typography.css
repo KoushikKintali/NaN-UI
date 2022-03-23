@@ -1,4 +1,4 @@
-.preview {
+.typography-preview {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -7,6 +7,7 @@
     padding: 2rem;
     margin: 2rem 0;
     flex-wrap: wrap;
+    align-items: flex-start;
 }
 
 .text-sm {

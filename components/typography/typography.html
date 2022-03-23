@@ -5,8 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../../util/reset.css"></link>
-    <link rel="stylesheet" href="typography.css"></link>
     <link rel="stylesheet" href="../../index.css"></link>
+    <link rel="stylesheet" href="typography.css"></link>
     <link rel="stylesheet" href="../../util/main.css"></link>
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined" rel="stylesheet">
     <title>NaN-UI</title>
@@ -25,6 +25,16 @@
             </li>
             <li class="nav-item">
                 <a class="nav-link" href="#">Contribute</a>
+            </li>
+            <li class="nav-item" id="light-mode">
+                <button id="btn-light-mode" class="btn btn-outline-light btn-nav nav-link">
+                    <span class="material-icons-outlined">light_mode</span>
+                </button>
+            </li>
+            <li class="nav-item" id="dark-mode">
+                <button id="btn-dark-mode" class="btn btn-outline-light btn-nav nav-link">
+                    <span class="material-icons-outlined">dark_mode</span>
+                </button>
             </li>
         </ul>
     </nav>
@@ -53,7 +63,7 @@
             </div>
             <ul id="components-nav-items" class="components-nav-items">
                 <li class="side-nav-items"><a href="../alert/alert.html">Alert</a></li>
-                <li class="side-nav-items"><a href="./avatar.html">Avatar</a></li>
+                <li class="side-nav-items"><a href="../avatar/avatar.html">Avatar</a></li>
                 <li class="side-nav-items"><a href="../badge/badge.html">Badge</a></li>
                 <li class="side-nav-items"><a href="../button/button.html">Button</a></li>
                 <li class="side-nav-items"><a href="../card/card.html">Card</a></li>
@@ -73,7 +83,7 @@
             <section>
                 <div class="components">
                     <h5>Headings</h5>
-                    <div class="preview">
+                    <div class="preview-block typography-preview">
                         <h1>Heading 1</h1>
                         <h2>Heading 2</h2>
                         <h3>Heading 3</h3>
@@ -93,7 +103,7 @@
             <section>
                 <div class="components">
                     <h5>Paragraph</h5>
-                    <div class="preview">
+                    <div class="preview-block typography-preview">
                         <p>
                             Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tenetur perferendis, et quos officiis
                             ad quod assumenda voluptates magnam unde quas quidem dolorum est molestiae doloremque quia sit 
@@ -113,7 +123,7 @@
             <section>
                 <div class="components">
                     <h5>Small Text</h5>
-                    <div class="preview">
+                    <div class="preview-block typography-preview">
                         <p class="text-sm">
                             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Suscipit consequatur ducimus dignissimos 
                             recusandae, magnam possimus quaerat unde expedita eum aut, obcaecati quam aperiam, mollitia 
@@ -135,7 +145,7 @@
             <section>
                 <div class="components">
                     <h5>Text Colors</h5>
-                    <div class="preview">
+                    <div class="preview-block typography-preview">
                         <p class="text-primary">Primary: Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sed, natus.</p>
                         <p class="text-secondary">Secondary: Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sed, natus.</p>
                         <p class="text-dark">Dark: Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sed, natus.</p>
@@ -157,7 +167,7 @@
             <section>
                 <div class="components">
                     <h5>Text Alignment</h5>
-                    <div class="preview">
+                    <div class="preview-block typography-preview">
                         <p class="text-left">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sed, natus.</p>
                         <p class="text-center">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sed, natus.</p>
                         <p class="text-right">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sed, natus.</p>
@@ -175,7 +185,7 @@
             <section>
                 <div class="components">
                     <h5>List</h5>
-                    <div class="preview">
+                    <div class="preview-block typography-preview">
                         <ul>
                             <li>List 1</li>
                             <li>List 2</li>

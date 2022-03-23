@@ -16,7 +16,8 @@ body {
     --color-blue: #0000FF;
     --color-nav:#E3F2FD;
     --color-link-active: #007bff3b;
-    --color-black: #353535;
+    --color-black-500: #353535;
+    --color-black: black;
 }
 
 hr {
@@ -44,7 +45,7 @@ hr {
 }
 
 .main-body {
-    height: calc(100vh - 10.2rem);
+    height: calc(100vh - 10rem);
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -163,7 +164,7 @@ hr {
 
 @media only screen and (max-width: 720px) and (min-width: 480px){
     .main-body {
-        height: calc(100vh - 10.2rem);
+        height: calc(100vh - 10rem);
         display: flex;
         align-items: center;
         flex-direction: column;
@@ -214,7 +215,7 @@ hr {
 
 @media only screen and (max-width: 1280px) and (min-width: 720px){
     .main-body {
-        height: calc(100vh - 10.2rem);
+        height: calc(100vh - 10rem);
         display: flex;
         align-items: center;
         justify-content: space-between;
@@ -331,13 +332,31 @@ hr {
 .side-nav-items a {
     font-size: 2rem;
     padding: 1rem;
-    color: var(--color-black);
+    color: var(--color-black-500);
 }
 
 .side-nav-items.is-active {
     width: 20rem;
     background-color: var(--color-link-active);
     border-left: 0.5rem solid var(--color-navbar);
+}
+
+.side-nav-items.is-active.dark-side-nav {
+    width: 20rem;
+    background-color: var(--color-dark-mode-300);
+    border-left: 0.5rem solid var(--color-black);
+}
+
+.dark-footer {
+    background-color: var(--color-dark);
+}
+
+.dark-side-nav a {
+    color: var(--color-white);
+}
+
+.dark-preview-block {
+    background-color: var(--color-dark-mode-300);
 }
 
 .side-nav-items.is-active a {
@@ -349,10 +368,22 @@ hr {
     width: 20rem;
 }
 
-.side-nav-items a:active {
-    color: rebeccapurple;
+.side-nav-items.dark-side-nav:hover {
+    background-color: var(--color-dark-mode-300);
+    width: 20rem;
 }
 
 .nav-logo {
     cursor: pointer;
+}
+
+.btn-nav {
+    border: transparent;
+}
+
+.btn-nav:hover {
+    background-color: transparent;
+    outline: none;
+    color: white;
+    border: none;
 }

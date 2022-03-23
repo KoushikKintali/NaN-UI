@@ -11,6 +11,9 @@
     --color-red: #FF0000;
     --color-white: #FFFFFF;
     --color-orange:#FFA500;
+    --color-dark-mode: #272727;
+    --color-dark-mode-300: #333333;
+    --color-dark-mode-500:#383838;
 }
 
 h1 {
@@ -107,4 +110,9 @@ p {
 .nav-logo .logo {
     width: 18rem;
     margin: 0.5rem;
+}
+
+.dark {
+    background-color: var(--color-dark-mode);
+    color: var(--color-white);
 }

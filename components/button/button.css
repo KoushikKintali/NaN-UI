@@ -133,7 +133,7 @@
 .btn-outline-light:hover {
     border: thin solid var(--color-light);
     background-color: var(--color-light);
-    color: var(--color-black);
+    color: var(--color-black-500);
 }
 
 .btn-outline-success {
@@ -169,7 +169,7 @@
 .btn-outline-warning:hover {
     border: thin solid var(--color-warning);
     background-color: var(--color-warning);
-    color: var(--color-black);
+    color: var(--color-black-500);
 }
 
 .btn-outline-info {

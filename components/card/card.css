@@ -30,7 +30,7 @@
 }
 
 .preview-block-card {
-    background-color: var(--color-white) !important;
+    background-color: var(--color-white);
 }
 
 .card-img {
@@ -46,6 +46,7 @@
     display: flex;
     flex-direction: column;
     height: 100%;
+    color: var(--color-black-500);
 }
 
 .card-description {
