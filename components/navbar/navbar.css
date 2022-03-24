@@ -34,6 +34,8 @@
     color: var(--color-dark);
     font-size: 2rem;
     cursor: pointer;
+    display: flex;
+    align-items: center;
 }
 
 .nav-dropdown {
