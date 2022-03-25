@@ -52,6 +52,11 @@ Or you can import the link in your main css file.
   * Horizontal Card
   * Card with text overlay
   * Card with shadow
+* [Grid](https://nan-ui.netlify.app/components/grid/grid.html)
+    * Grid with 2 columns
+    * Grid with 2 rows
+    * Grid with 3 columns
+    * Grid with 3 rows
 * [Image](https://nan-ui.netlify.app/components/image/image.html)
   * Responsive images - default
   * Responsive images - round
