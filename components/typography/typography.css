@@ -8,6 +8,7 @@
     margin: 2rem 0;
     flex-wrap: wrap;
     align-items: flex-start;
+    color: var(--color-black);
 }
 
 .text-sm {
